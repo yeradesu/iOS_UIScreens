@@ -1,4 +1,4 @@
-# Travel Companion App
+# Travel Companion App Called KetBarTravel
 <img width="390" alt="Screenshot 2024-01-17 at 2 54 40 AM" src="https://github.com/yeradesu/iOS_UIScreens/assets/154603486/08e0c607-4415-4221-b95c-78bd84dd079b">
 
 ## Overview
