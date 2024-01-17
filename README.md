@@ -26,14 +26,7 @@ Upon launching the app, you will be greeted with a list of travel destinations. 
 - **GradientView**: A customizable UIView with a gradient layer, used in destination cells for a visually appealing overlay effect.
 - **DestinationCell**: A UICollectionViewCell that displays destination information with an image and a gradient overlay.
 
-## Code Snippets
-Here is a snippet of adding a gradient overlay to an image view:
+## Contacts
 
-```swift
-private func setupGradientLayer() {
-    let gradientLayer = CAGradientLayer()
-    gradientLayer.colors = [UIColor.black.cgColor, UIColor.clear.cgColor]
-    gradientLayer.locations = [0.0, 1.0]
-    gradientLayer.frame = imageView.bounds
-    imageView.layer.insertSublayer(gradientLayer, at: 0)
-}
+mail: ady.feb@icloud.com 
+github: @yeradesu
