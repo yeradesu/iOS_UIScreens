@@ -139,7 +139,7 @@ class TravelViewController: UIViewController, UICollectionViewDelegateFlowLayout
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        3
+        4
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
