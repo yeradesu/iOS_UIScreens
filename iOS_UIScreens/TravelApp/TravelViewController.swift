@@ -80,7 +80,6 @@ class TravelViewController: UIViewController, UICollectionViewDelegateFlowLayout
         searchIcon.setImage(UIImage(systemName: "magnifyingglass"), for: .normal)
         searchTextField.rightView = searchIcon
         searchTextField.rightViewMode = .always
-        
     }
     
     private func setupCollectionView() {
@@ -89,7 +88,6 @@ class TravelViewController: UIViewController, UICollectionViewDelegateFlowLayout
         collectionView.dataSource = self
         collectionView.register(DestinationCollectionViewCell.self, forCellWithReuseIdentifier: DestinationCollectionViewCell.identifier)
 
-        // Auto Layout constraints
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: searchTextField.bottomAnchor, constant: 2),
             collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
@@ -100,13 +98,17 @@ class TravelViewController: UIViewController, UICollectionViewDelegateFlowLayout
     
     private func setConstraints() {
         NSLayoutConstraint.activate([
+            // constraints for a title label
             titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 14),
             titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            
+            // constraints for a description label under the title label
             descriptionLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 11),
             descriptionLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             descriptionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
             descriptionLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
             
+            // text field
             searchTextField.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 10),
             searchTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
             searchTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
@@ -115,15 +117,14 @@ class TravelViewController: UIViewController, UICollectionViewDelegateFlowLayout
     }
 
     private func fetchDestinations() {
-        // Mock data
         destinations = [
             Destination(name: "ABU DHABI", imageName: "AbuDhabi"),
             Destination(name: "SAN ANTONIO", imageName: "SanAntonio")
-            // Add more destinations
         ]
         collectionView.reloadData()
     }
     
+    // MARK: - PUBLIC FUNCTION
     func shadowingForTextField() {
         searchTextField.layer.shadowColor = UIColor.black.cgColor
         searchTextField.layer.shadowOffset = CGSize(width: 0, height: 1)
