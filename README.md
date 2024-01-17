@@ -5,8 +5,6 @@ Travel Companion is an iOS application designed to help users discover and book 
 
 ## Features
 - **Explore Destinations**: Users can browse through a curated list of destinations.
-- **Detailed Descriptions**: Each destination comes with an image and a detailed description.
-- **Booking Integration**: Directly book your travel plans within the app.
 - **Search Functionality**: Find destinations easily with a search feature.
 
 ## Installation
