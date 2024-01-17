@@ -1,4 +1,6 @@
 # Travel Companion App
+<img width="390" alt="Screenshot 2024-01-17 at 2 52 15 AM" src="https://github.com/yeradesu/iOS_UIScreens/assets/154603486/e8a3f6c3-d27d-4269-b2aa-4a7e2a84a5a1">
+
 
 ## Overview
 Travel Companion is an iOS application designed to help users discover and book travel destinations. With an easy-to-navigate interface, users can explore various destinations, compare them, and book their next great adventure.
