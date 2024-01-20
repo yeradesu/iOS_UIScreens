@@ -1,3 +1,10 @@
+//
+//  MainViewController.swift
+//  iOS_UIScreens
+//
+//  Created by Yerassyl Adilkhan.
+//
+
 import UIKit
 
 @main

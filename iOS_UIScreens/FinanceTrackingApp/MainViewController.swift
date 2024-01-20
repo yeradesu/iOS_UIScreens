@@ -155,6 +155,7 @@ class MainViewController: UIViewController {
     
     private func setupTableView() {
         viewForTableView.addSubview(tableView)
+        tableView.separatorInset = UIEdgeInsets(top: 0, left: 62, bottom: 0, right: 16)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.layer.cornerRadius = 31
         tableView.rowHeight = 57
@@ -174,7 +175,7 @@ class MainViewController: UIViewController {
 // MARK: - TABLEVIEW DELEGATE
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        printContent("it works, you tapped me!")
+        print("it works, you tapped me!")
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }

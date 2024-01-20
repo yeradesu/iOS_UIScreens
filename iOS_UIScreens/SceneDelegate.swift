@@ -1,3 +1,10 @@
+//
+//  MainViewController.swift
+//  iOS_UIScreens
+//
+//  Created by Yerassyl Adilkhan.
+//
+
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -41,6 +48,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = tabBarVC
         window?.makeKeyAndVisible()
     }
+
 
     func sceneDidDisconnect(_ scene: UIScene) {}
 

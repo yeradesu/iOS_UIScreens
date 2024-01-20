@@ -80,4 +80,9 @@ class ExpensesTableViewCell: UITableViewCell {
         amount.text = expenses.amount
         detail.text = expenses.detail
     }
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        icon.layer.cornerRadius = icon.frame.width / 2
+        icon.clipsToBounds = true
+    }
 }
