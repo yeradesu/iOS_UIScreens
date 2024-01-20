@@ -10,6 +10,7 @@ Travel Companion is an iOS application designed to help users discover and book 
 
 ## Installation
 To run the Travel Companion app, follow these steps:
+(to switch between two app screens open SceneDelegate and read the instructions)
 
 1. Clone the repository to your local machine.
 2. Open the project in Xcode.
