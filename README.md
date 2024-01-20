@@ -27,7 +27,28 @@ Upon launching the app, you will be greeted with a list of travel destinations. 
 - **GradientView**: A customizable UIView with a gradient layer, used in destination cells for a visually appealing overlay effect.
 - **DestinationCell**: A UICollectionViewCell that displays destination information with an image and a gradient overlay.
 
+
+
+# iOS Finance Tracking App
+
+## Overview
+
+This iOS app is a finance tracking application that allows users to keep track of their expenses over time. With a sleek and user-friendly interface, users can view their balance, expenses by category, and detailed transactions for each category. The app features a main dashboard, reports, and profile sections managed through a tab bar interface.
+
+## Features
+
+- View balance and monthly expenses at a glance.
+- Navigate through months to review expenses.
+- Detailed categorization of expenses.
+- Interactive cells to expand for more details.
+- A clean and intuitive UI with a focus on usability.
+
+## Screenshots
+
+<img width="301" alt="Screenshot 2024-01-20 at 3 17 12 AM" src="https://github.com/yeradesu/iOS_UIScreens/assets/154603486/71015ead-59a7-472b-a4b9-7839bd16a24c">
+
 ## Contacts
 
 mail: ady.feb@icloud.com 
+
 github: @yeradesu
